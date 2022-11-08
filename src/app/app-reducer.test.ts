@@ -10,13 +10,13 @@ beforeEach(() => {
 })
 
 test('set in initialized', () => {
-    const appReducer1 = appReducer(state, setIsInitialized(true))
-    expect(appReducer1.isInitialized).toBe(true)
+    const appReducerTest = appReducer(state, setIsInitialized(true))
+    expect(appReducerTest.isInitialized).toBe(true)
 })
 
 test('set error', () => {
-    const appReducer1 = appReducer(state, setAppError('Error messages'))
-    expect(appReducer1.error).toBe('Error messages')
+    const appReducerTest = appReducer(state, setAppError('Error messages'))
+    expect(appReducerTest.error).toBe('Error messages')
 })
 
 
