@@ -9,6 +9,7 @@
 - Redux
 - Redux-Thunk
 - Axios
+- SCSS
 - Material UI
 
 ---

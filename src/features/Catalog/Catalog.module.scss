@@ -1,0 +1,35 @@
+.catalogComponent {
+  padding: 50px 0;
+
+  .search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+
+    .item {
+      @media (max-width: 650px) {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .message {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+
+
+
+

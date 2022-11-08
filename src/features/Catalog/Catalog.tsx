@@ -1,5 +1,5 @@
-import React, {ChangeEvent, useEffect, useState} from 'react';
-import styles from './Catalog.module.css'
+import React, {useEffect, useState} from 'react';
+import styles from './Catalog.module.scss'
 import {useAppDispatch} from '../../common/hooks/useAppDispatch';
 import {useAppSelector} from '../../common/hooks/useAppSelector';
 import {setCatalog} from './catalog-reducer';
@@ -29,7 +29,7 @@ export const Catalog = () => {
     return <div className={styles.catalogComponent}>
 
         <div className={styles.search}>
-            <h1>{search.length} PRODUCTS</h1>
+            <h1 className={styles.item}>{search.length} PRODUCTS</h1>
             <SearchInputText
                 value={value}
                 onChange={setValue}

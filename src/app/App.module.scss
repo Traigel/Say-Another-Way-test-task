@@ -1,0 +1,18 @@
+@import "../common/styles/Variablies";
+
+.app {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  color: $textColor;
+
+  @media (max-width: 1070px) {
+    padding-left: 20px;
+    padding-right: 35px;
+    width: 100%;
+  }
+
+  @media (max-width: 650px) {
+    padding: 0 10px;
+  }
+}
