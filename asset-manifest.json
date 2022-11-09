@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Say-Another-Way-test-task/static/css/main.db5eb715.css",
+    "main.js": "/Say-Another-Way-test-task/static/js/main.f45cbce9.js",
+    "static/js/787.e24ec110.chunk.js": "/Say-Another-Way-test-task/static/js/787.e24ec110.chunk.js",
+    "index.html": "/Say-Another-Way-test-task/index.html",
+    "main.db5eb715.css.map": "/Say-Another-Way-test-task/static/css/main.db5eb715.css.map",
+    "main.f45cbce9.js.map": "/Say-Another-Way-test-task/static/js/main.f45cbce9.js.map",
+    "787.e24ec110.chunk.js.map": "/Say-Another-Way-test-task/static/js/787.e24ec110.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db5eb715.css",
+    "static/js/main.f45cbce9.js"
+  ]
+}
